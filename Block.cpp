@@ -1,7 +1,7 @@
 //
 //  Block.cpp
-//  Created by Roshan Lamichhane on 12/7/19.
-//  Copyright © 2019 Roshan Lamichhane. All rights reserved.
+//  Created by Dan Makes on 12/7/19.
+//  Copyright © 2019 Dan Makes. All rights reserved.
 //
 
 #include <stdio.h>

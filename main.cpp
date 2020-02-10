@@ -1,7 +1,7 @@
 //
 //  Block.cpp
-//  Created by Roshan Lamichhane on 12/7/19.
-//  Copyright © 2019 Roshan Lamichhane. All rights reserved.
+//  Created by Dan Makes on 12/7/19.
+//  Copyright © 2019 Dan Makes. All rights reserved.
 //
 
 #include <iostream>
@@ -21,7 +21,7 @@ int main(){
     
     // Data for first block
     time_t data1Time;
-    TransactionData data1(1.5, "Roshan", "Lamichhane", time(&data1Time));
+    TransactionData data1(1.5, "Dan", "Makes", time(&data1Time));
     RoCoin.addBlock(data1);
     
     // Data for second block
@@ -38,7 +38,7 @@ int main(){
     // Someone's getting sneaky
     Block *hackBlock = RoCoin.getLatestBlock();
     hackBlock->data.amount = 10000; // Oh yeah!
-    hackBlock->data.receiverKey = "Roshan"; // mwahahahaha!
+    hackBlock->data.receiverKey = "Dan"; // mwahahahaha!
 
     // Let's look at data
     RoCoin.printChain();
